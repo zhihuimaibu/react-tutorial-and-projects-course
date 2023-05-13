@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.radios {
+  display: grid;
+  align-items: flex-start;
+}
+
+@media (800px <=width) {
+  .radios {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem
+  }
+}
+
+.radio {
+  margin-top: 2rem;
+}
+
+.radios img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.radio h3 {
+  margin-top: 0.5rem;
+}
+
+.radio p {
+  margin-top: 0.5rem;
+}
